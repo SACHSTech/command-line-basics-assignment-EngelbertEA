@@ -1,1 +1,31 @@
-
+ pwd
+/home/runner/command-line-basics-assignment-EngelbertEA-3
+ mkdir LinuxExercise
+ ls
+LinuxExercise  README.md  TerminalSession.txt
+ cd LinuxExercise
+ touch myfile.txt
+ echo this is my new file >> myfile.txt
+ cat myfile.txt
+this is my new file
+ cp myfile.txt myfile_copy.txt
+ ls
+myfile_copy.txt  myfile.txt
+ mv myfile_copy.txt myfile2.txt
+ myfile2.txt ~
+bash: myfile2.txt: command not found
+ mv myfile2.txt ~
+ ls ~
+command-line-basics-assignment-EngelbertEA-3  myfile2.txt
+jdt.ls-java-project               _test_runner.py
+ ls
+myfile.txt
+ rm -r myfile.txt
+ ls
+ cd ..
+ rmdir LinuxExercise
+ ls
+README.md  TerminalSession.txt
+ ls ~
+command-line-basics-assignment-EngelbertEA-3  myfile2.txt
+jdt.ls-java-project               _test_runner.py
